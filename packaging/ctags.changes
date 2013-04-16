@@ -1,0 +1,5 @@
+* Wed Apr 17 2013 Patrick McCarty <patrick.mccarty@linux.intel.com> upstream/5.8@2699105
+- Add packaging
+- Apply Fedora DESTDIR patch
+- Imported Upstream version 5.8
+
