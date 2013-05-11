@@ -1,3 +1,6 @@
+* Sat May 11 2013 Anas Nashif <anas.nashif@intel.com> submit/tizen/20130509.173559@45e19f8
+- Set license using %license
+
 * Wed Apr 17 2013 Patrick McCarty <patrick.mccarty@linux.intel.com> upstream/5.8@2699105
 - Add packaging
 - Apply Fedora DESTDIR patch

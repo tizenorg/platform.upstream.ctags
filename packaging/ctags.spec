@@ -29,4 +29,5 @@ make %{?_smp_mflags}
 %docs_package
 
 %files
+%license COPYING
 %{_bindir}/ctags
