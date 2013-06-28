@@ -6,6 +6,7 @@ Summary:        Tool for generating indexes of source code definitions
 Url:            http://ctags.sourceforge.net/
 Group:          Development/Tools
 Source:         %{name}-%{version}.tar.gz
+Source1001: 	ctags.manifest
 
 %description
 Exuberant Ctags is a multilanguage reimplementation of the much-underused
@@ -18,6 +19,7 @@ because most were easily fooled by a number of preprocessor contructs.
 
 %prep
 %setup -q
+cp %{SOURCE1001} .
 
 %build
 %configure
@@ -29,5 +31,6 @@ make %{?_smp_mflags}
 %docs_package
 
 %files
+%manifest %{name}.manifest
 %license COPYING
 %{_bindir}/ctags
